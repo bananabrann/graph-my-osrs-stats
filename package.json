@@ -1,0 +1,25 @@
+{
+    "name": "graph-my-osrs-stats",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bananabrann/graph-my-osrs-stats.git"
+    },
+    "author": "bananabrann",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/bananabrann/graph-my-osrs-stats/issues"
+    },
+    "homepage": "https://github.com/bananabrann/graph-my-osrs-stats#readme",
+    "prettier": {
+        "trailingComma": "es5",
+        "tabWidth": 4,
+        "semi": true,
+        "singleQuote": false
+    }
+}
