@@ -1,3 +1,5 @@
+const hiscores = require('osrs-json-hiscores');
+
 // Load the Visualization API and the corechart package.
 google.charts.load("current", { packages: ["corechart"] });
 
@@ -22,7 +24,7 @@ function drawChart() {
 
     // Set chart options
     let options = {
-        title: "How Much Pizza I Ate Last Night",
+        // title: "How Much Pizza I Ate Last Night",
         width: 400,
         height: 300,
     };
@@ -32,4 +34,10 @@ function drawChart() {
         document.getElementById("chart_div")
     );
     chart.draw(data, options);
+}
+
+function lookup() {
+    const username = document.getElementById("username-input").value;
+    
+    hiscores.getStats(username).then(res => console.log(res)).catch(err => console.error(err))
 }
