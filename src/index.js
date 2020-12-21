@@ -1,4 +1,4 @@
-const hiscores = require('osrs-json-hiscores');
+// const hiscores = require('osrs-json-hiscores');
 
 // Load the Visualization API and the corechart package.
 google.charts.load("current", { packages: ["corechart"] });
@@ -35,9 +35,10 @@ function drawChart() {
     );
     chart.draw(data, options);
 }
-
+/*
 function lookup() {
     const username = document.getElementById("username-input").value;
     
     hiscores.getStats(username).then(res => console.log(res)).catch(err => console.error(err))
 }
+*/

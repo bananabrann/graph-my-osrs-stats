@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Load the AJAX API-->
+        <script
+            type="text/javascript"
+            src="https://www.gstatic.com/charts/loader.js"
+        ></script>
+        <script type="text/javascript" src="../index.js"></script>
+    </head>
+
+    <body>
+        <h1>Graph My OSRS Stats</h1>
+        <p>Search by username</p>
+        <input type="text" id="username-input" />
+        <div>
+            <p>Show percentages by ...</p>
+            <div>
+                <input
+                    type="radio"
+                    class=""
+                    id="net-experience"
+                    name="show-by"
+                    value="Net Experience"
+                />
+                <label for="net-experience">Net Experience</label>
+            </div>
+
+            <div>
+                <input
+                    type="radio"
+                    class=""
+                    id="total-level"
+                    name="show-by"
+                    value="Total Level"
+                />
+                <label for="total-level">Total Level</label>
+            </div>
+        </div>
+
+        <br />
+
+        <button type="submit" onclick="lookup();">Lookup</button>
+
+        <!--Div that will hold the pie chart-->
+        <div id="chart_div"></div>
+    </body>
+</html>
