@@ -26,6 +26,7 @@
         "singleQuote": false
     },
     "dependencies": {
+        "axios": "^0.21.0",
         "osrs-json-hiscores": "^2.2.0"
     },
     "devDependencies": {

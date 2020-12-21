@@ -1,3 +1,7 @@
+import axios from "axios";
+
+console.log("Loaded!")
+
 // const hiscores = require('osrs-json-hiscores');
 
 // Load the Visualization API and the corechart package.
@@ -35,10 +39,10 @@ function drawChart() {
     );
     chart.draw(data, options);
 }
-/*
+
 function lookup() {
     const username = document.getElementById("username-input").value;
-    
-    hiscores.getStats(username).then(res => console.log(res)).catch(err => console.error(err))
+    // hiscores.getStats(username).then(res => console.log(res)).catch(err => console.error(err))
+
+    const url = `https://secure.runescape.com/m=hiscore_oldschool/index_lite.ws?player=${username}`;
 }
-*/
