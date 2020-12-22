@@ -1,5 +1,5 @@
 # Graph My OSRS Stats!
-A very crudge and simple way to graph your Old School RuneScape experience.
+A very crude and simple way to graph your Old School RuneScape experience.
 
 ![example screenshot](/screenshots/example.png?raw=true)
 
@@ -13,6 +13,6 @@ A very crudge and simple way to graph your Old School RuneScape experience.
 1. Activate your virtual environment with `source ./env/bin/activate`
 1. Install dependencies `pip3 install -r requirements.txt`. *Be sure your environment is activated!*
 
-## How to Use -
+## How to Use
 1. Insert the desired username to graph into name.txt
 1. Start the program with `bash run.sh`
