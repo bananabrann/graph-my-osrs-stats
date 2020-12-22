@@ -51,6 +51,7 @@ colors = ['#b50c00', '#65c7c5', '#387328', '#e2e6e1', '#868f47', '#f5f7e6', '#27
           '#91712c', '#1d5454', '#adcdd9', '#fa9923', '#613418', '#706158', '#87827f', '#4e8042',
           '#031b40', '#4e2b5e', '#0d0d0d', '#0e7810', '#bdaf1a', '#5c5a54', '#b8a46a']
 
+plt.figure(num="Graph my OSRS Stats - %s" % (sys.argv[2]))
 plt.pie(sizes, labels=labels, colors=colors,
         autopct='%1.1f%%', shadow=True, startangle=140)
 plt.axis('equal')
